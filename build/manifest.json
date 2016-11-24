@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name"            : "woflow 2",
+  "description"     : "woflow 2",
+  "short_name"      : "awft",
+  "version"         : "0.1",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "debugger",
+    "storage",
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'"
+}
